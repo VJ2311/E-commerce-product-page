@@ -1,0 +1,70 @@
+[
+  {
+    "id":1,
+    "name": "RUGBY SHIRT",
+    "price":9999,
+    "image":"img/1.png",
+    "description":"For the final season of PUMA x PERKS AND MINI, we return to the PAM/PUMA BIO/VERSE to explore creativity, character and mutability. The collection draws inspiration from the previous three editions and features bold logos and beautiful designs that seamlessly take you from the natural world to the digital world, as well as the colliding worlds of sports, activity and gaming. This rugby sports shirt features a relaxed fit and an all-over floral print to help you play BIO/VERSE in style and comfort."
+
+
+  },
+  {
+    "id":2,
+    "name":"PALERMO SUPERTIFO",
+    "price":10599,
+    "image":"img/2.png",
+    "description":"Straight from our archives, it's the PUMA Palermo. This classic terrace shoe debuted in the 80's and now, we've brought it back for the fans. With its signature T-toe construction and classic gum sole, this Supertifo version features a textile upper, hairy suede overlays, speckled laces, and a bold tongue design."
+
+  },
+  {
+    "id":3,
+    "name":"BASKETBALL POLO",
+    "price":5999,
+    "image":"img/3.png",
+    "description":"Embrace the stylish legacy of golden era basketball in these terry polo. Designed to evoke the spirit of the legendary pickup games at Venice Beach, these polos not only feel great but also feature a PUMA Hoops design that captures the essence of basketball culture. Complete with front patch pockets and crafted from soft-feel fabric, they're a must-have for any basketball enthusiast."
+  },
+  {
+    "id":4,
+    "name":"AE 1",
+    "price":12999,
+    "image":"img/4.png",
+    "description":"Anthony Edwards 1 New Wave Basketball Shoes. Signature sneakers from adidas Basketball and Anthony Edwards. Lace up in the style of one of the game's emerging superstars. These signature sneakers from adidas Basketball and Anthony Edwards are built for certified bucket getters. The BOOST midsole is ultra-lightweight and adds outstanding energy return to your most explosive moves. A rubber outsole provides all the support you need to attack the hoop, while signature Anthony Edwards branding completes the look."
+   
+  },
+  {
+    "id":5,
+    "name":"DOUBLE VISOR CAP",
+    "price":2799,
+    "image":"img/5.png",
+    "description":"AN EDGY TREFOIL CAP MADE IN PART WITH RECYCLED MATERIALS. Double the fun, double the style. This adidas cap helps protect you from the sun and keeps your look on-trend with a stacked visor. An adjustable back strap lets you customise the fit for lasting comfort as you go about your day. Made of durable yet breathable taffeta, it boasts an embroidered Trefoil front and centre. This product is made with at least 50% recycled materials. By reusing materials that have already been created, we help to reduce waste and our reliance on finite resources and reduce the footprint of the products we make."
+  },
+  {
+    "id":6,
+    "name":"100 THIEVES JERSEY",
+    "price":5999,
+    "image":"img/6.png",
+    "description":"This adidas jersey blends e-sport energy into an effortless statement. We made it in collaboration with 100 Thieves, a label built at the intersection of competitive gaming and style. The doubleknit fabric keeps the vibe comfortable and classic while the allover print channels an edgy sense of cool. Signature 3-Stripes show up in their rightful spot along the shoulders"
+
+  },
+  {
+    "id":7,
+    "name":"AIR MORE UPTEMPO",
+    "price":8495,
+    "image":"img/7.png",
+    "description":"Your favorite hoops look gets transformed into slides you can easily slip on and off. Keeping the graffiti-styled AIR graphics you love from the original, the Air More Uptempo combines a plush strap, airy perforations and soft cushioning—making it a perfect choice for courtside, beachside and beyond. Padded strap with perforations feels plush and airy. Originally designed for performance sports, visible Nike Air cushioning delivers time-tested comfort. Rubber outsole features the grip pattern from the original Uptempo for durable traction. Foam footbed is contoured to help keep your foot in place."
+  },
+  {
+    "id":8,
+    "name":"WMN'S DUNK LOW",
+    "price":9695,
+    "image":"img/8.png",
+    "description":"ou can always count on a classic. Varsity-inspired colorways combine with premium materials and plush padding for game-changing comfort that lasts. The possibilities are endless — how will you wear your Dunks? Synthetic leather and suede upper softens and gains vintage character with wear. Foam midsole offers lightweight cushioning. Rubber outsole with classic pivot circle adds durable traction and heritage style."
+  },
+  {
+    "id":9,
+    "name":"MAX90 T-SHIRT",
+    "price":2495,
+    "image":"img/9.png",
+    "description":"his Max90 tee has dropped shoulders, longer sleeves and a roomy fit through the body and hips for a relaxed and casual look. Midweight cotton fabric feels soft and has a slight drape."
+  }
+]

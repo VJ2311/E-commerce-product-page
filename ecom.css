@@ -1,0 +1,181 @@
+
+body{
+  margin: 0;
+  font-family: Poppins;
+}
+a{
+  color: unset;
+  text-decoration: none;
+}
+.container{
+  width: 900px;
+  margin: auto;
+  max-width: 90vw;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.title{
+  font-size: xx-large;
+  padding: 20px 0;
+  text-align: left;
+}
+.listProduct .item img{
+  width: 90%;
+  filter: drop-shadow(0 20px 20px #0009);
+}
+.listProduct{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.listProduct .item{
+  background-color: #EEEEE6;
+  padding: 20px;
+  border-radius: 20px;
+}
+.listProduct .item h2{
+  font-weight: 500;
+  font-size: large;
+}
+.listProduct .item .price{
+  letter-spacing: 7px;
+  font-size: small;
+}
+
+.detail{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  text-align: left;
+}
+.detail .image img{
+  width: 100%;
+}
+.detail .image{
+  position: relative;
+}
+.detail .image::before{
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  content: '';
+  background-color: #94817733;
+  z-index: -1;
+  border-radius: 190px 100px 170px 180px;
+  left: calc(50% - 150px);
+  top: 50px;
+
+}
+.detail .name{
+  font-size: xxx-large;
+  padding: 40px 0 0 0;
+  margin: 0 0 10px 0;
+}
+.detail .price{
+  font-weight: bold;
+  font-size: x-large;
+  letter-spacing: 7px;
+  margin-bottom: 20px;
+}
+.detail .buttons{
+  
+  
+  display:flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+.detail .buttons button{
+  background-color: #eee;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 20px;
+  font-family: Poppins;
+  font-size: large;
+}
+.detail .buttons svg{
+  width: 15px;
+}
+.detail .buttons span{
+  width: 30px;
+  height: 30px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin-left: 20px;
+  color:#eee;
+}
+.detail .buttons button:nth-child(2){
+  background-color: #2F2F2F;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: #eee;
+  box-shadow: 0 10px 20px #2F2F2F77;
+}
+.detail .description{
+  font-weight: 300;
+}
+@media only screen and (max-width: 992px) {
+  .listProduct{
+      grid-template-columns: repeat(3, 1fr);
+  }
+  .detail{
+      grid-template-columns:  40% 1fr;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .listProduct{
+      grid-template-columns: repeat(2, 1fr);
+  }
+  .detail{
+      text-align: center;
+      grid-template-columns: 1fr;
+  }
+  .detail .image img{
+      width: unset;
+      height: 40vh;
+  } 
+  .detail .name{
+      font-size: x-large;
+      margin: 0;
+
+  }
+  .detail .buttons button{
+      font-size: small;
+      
+  }
+  .detail .buttons{
+      justify-content: center;
+      
+  }
+}
+*{
+  text-decoration: none;
+}
+.navbar{
+  background: rgb(186, 146, 178); font-family: Poppins; padding-right: 15px;padding-left: 15px;
+}
+.navdiv{
+  display: flex; align-items: center; justify-content: space-between;
+}
+.logo a{
+  font-size: 35px; font-weight: 600; color: white;
+}
+li{
+  list-style: none; display: inline-block;
+}
+li a{
+  color: white; font-size: 18px; font-weight: bold; margin-right: 25px;
+}
+button{
+  background-color: white; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
+}
+button a{
+  color:black; font-weight: bold; font-size: 15px;
+}
+.listProduct .item:hover{
+  transform:scale(1.3);
+  z-index:2;
+}
